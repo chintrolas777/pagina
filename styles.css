@@ -1,0 +1,42 @@
+body {
+    background-image: url('https://i.pinimg.com/736x/9d/e4/fe/9de4fefcf170271033fd9e4c34f0a399.jpg'); /* Reemplaza 'ruta/imagen-fondo.jpg' con la ruta de tu imagen de fondo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  #imagenSuperior {
+    width: 25%;
+    margin-top: 5vh;
+  }
+  
+  #titulo {
+    font-size: 6vh;
+  }
+  
+  button {
+    margin: 1vh;
+    padding: 1vh 2vh;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #botonSi {
+    background-color: green;
+    color: white;
+  }
+  
+  #botonNo {
+    background-color: red;
+    color: white;
+  }
+  
